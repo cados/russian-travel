@@ -3,6 +3,6 @@
   text-decoration: none;
 }
 
-.header__lang-links:active {
+.header__lang-links_active {
   text-decoration: underline;
 }
