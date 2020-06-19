@@ -1,5 +1,5 @@
-@import url(/blocks/website/__url-heading/website__url-heading.css);
-@import url(/blocks/website/__link/website__link.css);
+@import url(./__url-heading/website__url-heading.css);
+@import url(./__link/website__link.css);
 .website {
   justify-self: start;
   align-self: end;
