@@ -1,0 +1,6 @@
+@import url(/blocks/fonts/fonts.css);
+
+.page {
+  max-width: 1280px;
+  margin: 0 auto;
+}

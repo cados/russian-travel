@@ -1,0 +1,17 @@
+.places__paragraph_cover {
+  width: 360px;
+  height: 66px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 1;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .places__paragraph_cover {
+    font-size: 14px;
+    line-height: 16px;
+    width: 288px;
+    height: 48px;
+  }
+}

@@ -1,0 +1,26 @@
+.intro__text {
+  width: 690px;
+  height: 208px;
+  color: white;
+  margin-top: 40px;
+  font-family: Inter Regular, sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+@media (max-width: 768px) {
+  .intro__text {
+    width: 720px;
+    height: 208px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .intro__text {
+    font-size: 16px;
+    line-height: 26px;
+    margin: auto;
+    width: 288px;
+    height: auto;
+  }
+}

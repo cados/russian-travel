@@ -1,0 +1,12 @@
+@import url(/blocks/website/__url-heading/website__url-heading.css);
+@import url(/blocks/website/__link/website__link.css);
+.website {
+  justify-self: start;
+  align-self: end;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .website {
+    display: none;
+  }
+}
