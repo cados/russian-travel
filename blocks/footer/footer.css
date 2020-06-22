@@ -1,4 +1,4 @@
-@import url(./__columns/footer__columns.css);
+@import url(./__navigaion/footer__navigation.css);
 @import url(./__link/footer__link.css);
 @import url(./__links/footer__links.css);
 @import url(./__copyright/footer__copyright.css);
@@ -6,10 +6,14 @@
 .footer {
   padding-top: 92px;
   padding-bottom: 24px;
+  display: flex;
+  justify-content: space-between;
 }
 
-@media (min-width: 320px) and (max-width: 765px) {
+@media (min-width: 320px) and (max-width: 767px) {
   .footer {
     padding-top: 64px;
+    flex-direction: column;
+    margin-left: 16px;
   }
 }
