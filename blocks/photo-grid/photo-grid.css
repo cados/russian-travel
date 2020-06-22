@@ -7,12 +7,12 @@
   grid-column-gap: 16px;
   grid-row-gap: 16px;
   align-self: center;
+  list-style-type: none;
 }
 
 @media (min-width: 1024px) and (max-width: 1280px) {
   .photo-grid {
     padding: 92px 48px 12px 48px;
-
     grid-template-columns: repeat(3, 300px);
     grid-template-rows: repeat(4, 225px);
     grid-column-gap: 14px;
@@ -23,7 +23,6 @@
 @media (min-width: 768px) and (max-width: 1023px) {
   .photo-grid {
     padding: 92px 24px 12px 24px;
-
     grid-template-columns: repeat(2, 352px);
     grid-template-rows: repeat(6, 264px);
     grid-column-gap: 16px;

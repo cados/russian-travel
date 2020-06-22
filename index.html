@@ -18,13 +18,13 @@
           alt="логотип"
           class="header__logo"
         />
-        <ul class="header__lang-link">
+        <ul class="header__lang-links">
           <li>
-            <a class="header__lang-links header__lang-links_active" href="#"
+            <a class="header__lang-link header__lang-link_active" href="#"
               >Ru</a
             >
           </li>
-          <li><a class="header__lang-links" href="#">En</a></li>
+          <li><a class="header__lang-link" href="#">En</a></li>
         </ul>
       </header>
       <main class="content">
@@ -39,7 +39,7 @@
               src="./images/lead-polka.jpg"
               alt="Картинка"
             />
-            <figcaption class="lead__caption">ВАША ПОЛКА — ВЕРХНЯЯ</figcaption>
+            <figcaption class="lead__caption">ваша полка — верхняя</figcaption>
           </figure>
         </section>
         <section class="intro">
@@ -57,74 +57,112 @@
             вашего отпуска.
           </p>
           <ul class="intro__list">
-            <li>Часовых поясов 11</li>
-            <li>Объектов природного наследия ЮНЕСКО 12</li>
-            <li>Объектов культурного наследия ЮНЕСКО 16</li>
-            <li>Природных заповедников 105</li>
-            <li>Аэропортов 241</li>
+            <li><span class="intro__span-accent">Часовых поясов</span> 11</li>
+            <li>
+              <span class="intro__span-accent"
+                >Объектов природного наследия ЮНЕСКО</span
+              >
+              12
+            </li>
+            <li>
+              <span class="intro__span-accent"
+                >Объектов культурного наследия ЮНЕСКО</span
+              >
+              16
+            </li>
+            <li>
+              <span class="intro__span-accent">Природных заповедников</span> 105
+            </li>
+            <li><span class="intro__span-accent">Аэропортов</span> 241</li>
           </ul>
         </section>
-        <section class="photo-grid">
-          <img
-            class="photo-grid__item"
-            src="./images/photo-grid-train.jpg"
-            alt="поезд"
-          />
-          <img
-            class="photo-grid__item"
-            src="./images/photo-grid-atharva-tulsi.jpg"
-            alt="тулси"
-          />
-          <img
-            class="photo-grid__item"
-            src="./images/photo-grid-tuman.jpg"
-            alt="туман"
-          />
-          <img
-            class="photo-grid__item"
-            src="./images/photo-grid-sochi.jpg"
-            alt="сочи"
-          />
-          <img
-            class="photo-grid__item"
-            src="./images/photo-grid-arisa.jpg"
-            alt="ариса"
-          />
-          <img
-            class="photo-grid__item"
-            src="./images/photo-grid-baikal.jpg"
-            alt="байкал"
-          />
-          <img
-            class="photo-grid__item"
-            src="./images/photo-grid-elbrus.jpg"
-            alt="эльбрус"
-          />
-          <img
-            class="photo-grid__item"
-            src="./images/photo-grid-kondratiev.jpg"
-            alt="кондратиев"
-          />
-          <img
-            class="photo-grid__item"
-            src="./images/photo-grid-kamchatka-1.jpg"
-            alt="камчатка-1"
-          />
-          <img
-            class="photo-grid__item"
-            src="./images/photo-grid-kamchatka-2.jpg"
-            alt="камчатка-2"
-          />
-          <img
-            class="photo-grid__item"
-            src="./images/photo-grid-baikal-2.jpg"
-            alt="байкал-2"
-          />
-          <img
-            class="photo-grid__item"
-            src="./images/photo-grid-ergaki.jpg"
-            alt="игроки"
-          />
+        <section>
+          <ul class="photo-grid">
+            <li>
+              <img
+                class="photo-grid__item"
+                src="./images/photo-grid-train.jpg"
+                alt="поезд"
+              />
+            </li>
+            <li>
+              <img
+                class="photo-grid__item"
+                src="./images/photo-grid-atharva-tulsi.jpg"
+                alt="тулси"
+              />
+            </li>
+            <li>
+              <img
+                class="photo-grid__item"
+                src="./images/photo-grid-tuman.jpg"
+                alt="туман"
+              />
+            </li>
+            <li>
+              <img
+                class="photo-grid__item"
+                src="./images/photo-grid-sochi.jpg"
+                alt="сочи"
+              />
+            </li>
+            <li>
+              <img
+                class="photo-grid__item"
+                src="./images/photo-grid-arisa.jpg"
+                alt="ариса"
+              />
+            </li>
+            <li>
+              <img
+                class="photo-grid__item"
+                src="./images/photo-grid-baikal.jpg"
+                alt="байкал"
+              />
+            </li>
+            <li>
+              <img
+                class="photo-grid__item"
+                src="./images/photo-grid-elbrus.jpg"
+                alt="эльбрус"
+              />
+            </li>
+            <li>
+              <img
+                class="photo-grid__item"
+                src="./images/photo-grid-kondratiev.jpg"
+                alt="кондратиев"
+              />
+            </li>
+            <li>
+              <img
+                class="photo-grid__item"
+                src="./images/photo-grid-kamchatka-1.jpg"
+                alt="камчатка-1"
+              />
+            </li>
+            <li>
+              <img
+                class="photo-grid__item"
+                src="./images/photo-grid-kamchatka-2.jpg"
+                alt="камчатка-2"
+              />
+            </li>
+            <li>
+              <img
+                class="photo-grid__item"
+                src="./images/photo-grid-baikal-2.jpg"
+                alt="байкал-2"
+              />
+            </li>
+            <li>
+              <img
+                class="photo-grid__item"
+                src="./images/photo-grid-ergaki.jpg"
+                alt="игроки"
+              />
+            </li>
+          </ul>
         </section>
         <section class="places">
           <div class="places__place">
@@ -264,17 +302,15 @@
             </p>
           </div>
         </section>
-        <section class="cover link">
+        <section class="cover cover__link">
           <a href="https://stampsy.com/na-elektrichkakh-do-baikala">
-            <div>
-              <h2 class="places__title places__title_cover">
-                До Байкала «на собаках»
-              </h2>
-              <p class="places__paragraph places__paragraph_cover">
-                По мотивам учебной темы о Транссибе и iframes — путешествие от
-                столицы до Байкала на электричках.
-              </p>
-            </div>
+            <h2 class="cover__title">
+              До Байкала «на собаках»
+            </h2>
+            <p class="cover__subtitle">
+              По мотивам учебной темы о Транссибе и iframes — путешествие от
+              столицы до Байкала на электричках.
+            </p>
           </a>
         </section>
       </main>
@@ -305,7 +341,7 @@
               >
             </li>
           </ul>
-          <span class="footer__copyright">© 2020. Кочкин Артем</span>
+          <span class="footer__copyright">&COPY; 2020. Кочкин Артем</span>
         </div>
       </footer>
     </div>

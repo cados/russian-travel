@@ -1,9 +1,8 @@
 @import url(./__place/places__place.css);
 @import url(./__title/places__title.css);
-@import url(./__title/_cover/places__title_cover.css);
 @import url(./__image/places__image.css);
 @import url(./__paragraph/places__paragraph.css);
-@import url(./__paragraph/_cover/places__paragraph_cover.css);
+
 .places {
   padding-bottom: 92px;
   align-self: center;
