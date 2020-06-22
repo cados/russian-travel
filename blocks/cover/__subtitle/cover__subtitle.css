@@ -6,7 +6,7 @@
   margin-top: 0;
   margin-bottom: 0;
   width: 360px;
-  height: 66px;
+  min-height: 66px;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
@@ -31,6 +31,6 @@
     font-size: 14px;
     line-height: 16px;
     width: 288px;
-    height: 48px;
+    min-height: 48px;
   }
 }
