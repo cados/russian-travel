@@ -4,26 +4,30 @@
 @import url(./__span-accent/intro__span-accent.css);
 .intro {
   padding-top: 92px;
-  align-self: center;
-  padding-right: 300px;
+  align-self: flex-start;
+  padding-left: 150px;
 }
 
-@media (max-width: 1279px) {
+@media (min-width: 1024px) and (max-width: 1280px) {
   .intro {
     padding-left: 48px;
+    align-self: start;
   }
 }
 
-@media (min-width: 768px) and (max-width: 1203px) {
+@media (min-width: 768px) and (max-width: 1023px) {
   .intro {
     padding-left: 24px;
     padding-right: 24px;
     padding-top: 88px;
   }
 }
+
 @media (min-width: 320px) and (max-width: 767px) {
   .intro {
-    padding: 0;
+    padding-top: 0;
+    padding-left: 16px;
+    padding-right: 16px;
     align-self: auto;
   }
 }

@@ -2,35 +2,24 @@
   font-family: Inter Regular, sans-serif;
   color: white;
   font-size: 18px;
-  line-height: 30px;
-  margin-top: 0;
+  line-height: 22px;
+  margin-top: 32px;
   margin-bottom: 0;
-  width: 360px;
+  max-width: 360px;
   min-height: 66px;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  z-index: 1;
-}
-
-@media (min-width: 768px) and (max-width: 1023px) {
-  .cover__subtitle {
-    font-size: 16px;
-    line-height: 26px;
-  }
-}
-@media (min-width: 320px) and (max-width: 767px) {
-  .cover__subtitle {
-    margin-left: 16px;
-    margin-right: 16px;
-  }
+  z-index: 2;
+  position: relative;
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
   .cover__subtitle {
     font-size: 14px;
     line-height: 16px;
-    width: 288px;
+    max-width: 288px;
     min-height: 48px;
+    margin-top: 16px;
   }
 }

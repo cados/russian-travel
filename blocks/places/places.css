@@ -1,9 +1,22 @@
 @import url(./__place/places__place.css);
 @import url(./__title/places__title.css);
 @import url(./__image/places__image.css);
+@import url(./__text/places__text.css);
 @import url(./__paragraph/places__paragraph.css);
 
 .places {
-  padding-bottom: 92px;
+  padding-bottom: 12px;
   align-self: center;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .places {
+    padding-bottom: 0;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .places {
+    padding-bottom: 0;
+  }
 }

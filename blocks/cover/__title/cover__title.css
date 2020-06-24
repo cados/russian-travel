@@ -4,37 +4,22 @@
   font-size: 72px;
   line-height: 76px;
   font-weight: 900;
-  margin-top: 92px;
   margin-bottom: 0;
   font-size: 72px;
   line-height: 76px;
-  width: 560px;
+  max-width: 560px;
   min-height: 152px;
   text-align: center;
   margin-top: 0;
-}
-@media (min-width: 768px) and (max-width: 1023px) {
-  .cover__title {
-    font-size: 42px;
-    line-height: 46px;
-    margin-top: 72px;
-  }
-}
-@media (min-width: 320px) and (max-width: 767px) {
-  .cover__title {
-    font-size: 32px;
-    line-height: 35px;
-    margin-top: 48px;
-    margin-left: 16px;
-  }
+  z-index: 1;
+  position: relative;
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
   .cover__title {
     font-size: 32px;
     line-height: 35px;
-    width: 288px;
+    max-width: 288px;
     min-height: 70px;
-    margin: 0;
   }
 }

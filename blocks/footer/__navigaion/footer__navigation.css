@@ -1,1 +1,6 @@
-
+@media (min-width: 345px) and (max-width: 767px) {
+  .footer__navigation {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
