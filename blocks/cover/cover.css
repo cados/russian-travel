@@ -16,6 +16,16 @@
   background-blend-mode: overlay;
 }
 
+.cover:hover {
+  background-color: #2a2c2f;
+  opacity: 0.8;
+  cursor: pointer;
+  transition: 0.5s ease;
+  -moz-transition: 0.5s ease;
+  -o-transition: 0.5s ease;
+  -webkit-transition: 0.5s ease;
+}
+
 @media (min-width: 1024px) and (max-width: 1280px) {
   .cover {
     width: 1024px;
