@@ -26,6 +26,7 @@
   .cover {
     width: 768px;
     height: 480px;
+    margin-top: 16px;
   }
 }
 
