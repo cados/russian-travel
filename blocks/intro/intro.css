@@ -7,23 +7,29 @@
   align-self: flex-start;
   padding-left: 150px;
 }
-
-@media (min-width: 1024px) and (max-width: 1280px) {
+@media screen and (max-width: 1279px) {
   .intro {
+    align-self: center;
+    padding-left: 0;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .intro {
+    align-self: flex-start;
     padding-left: 48px;
-    align-self: start;
   }
 }
 
-@media (min-width: 768px) and (max-width: 1023px) {
+@media screen and (max-width: 1023px) {
   .intro {
     padding-left: 24px;
     padding-right: 24px;
     padding-top: 88px;
+    align-self: center;
   }
 }
 
-@media (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .intro {
     padding-top: 0;
     padding-left: 16px;

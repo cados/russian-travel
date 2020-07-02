@@ -14,7 +14,7 @@
   }
 }
 
-@media (max-width: 320px) {
+@media screen and (max-width: 320px) {
   .intro__text {
     font-size: 16px;
     line-height: 26px;
@@ -25,9 +25,6 @@
 
 @media (min-width: 350px) and (max-width: 767px) {
   .intro__text {
-    font-size: 16px;
-    line-height: 26px;
-    margin: auto;
     max-width: 90%;
   }
 }
