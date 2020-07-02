@@ -6,16 +6,16 @@
   color: white;
   margin-right: 18px;
   text-decoration: none;
+  transition: 0.5s ease;
+  -moz-transition: 0.5s ease;
+  -o-transition: 0.5s ease;
+  -webkit-transition: 0.5s ease;
 }
 
 .footer__link:hover {
   background-color: #2a2c2f;
   opacity: 0.8;
   cursor: pointer;
-  transition: 0.5s ease;
-  -moz-transition: 0.5s ease;
-  -o-transition: 0.5s ease;
-  -webkit-transition: 0.5s ease;
 }
 @media (max-width: 768px) {
   .footer__link {

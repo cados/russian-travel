@@ -22,9 +22,9 @@
     height: 200px;
   }
 }
-@media (min-width: 350px) and (max-width: 767px) {
+@media (min-width: 321px) and (max-width: 767px) {
   .lead__image {
-    width: 95%;
-    height: 95%;
+    max-width: 100%;
+    height: auto;
   }
 }

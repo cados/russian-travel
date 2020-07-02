@@ -1,5 +1,11 @@
 .places__image {
   object-fit: cover;
   width: 100%;
-  /* height: 100%; */
 }
+
+/* @media (min-width: 352px) and (max-width: 767px) {
+  .places__image {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+} */
