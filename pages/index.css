@@ -10,3 +10,13 @@
 @import url(../blocks/website/website.css);
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/footer/footer.css);
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #2a2c2f;
+}

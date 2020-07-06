@@ -1,6 +1,6 @@
 .intro__text {
   max-width: 690px;
-  min-height: 208px;
+  /* min-height: 208px; */
   color: white;
   margin-top: 40px;
   font-family: Inter Regular, sans-serif;
