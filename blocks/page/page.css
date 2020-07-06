@@ -11,3 +11,7 @@
 *:after {
   box-sizing: border-box;
 }
+
+html {
+  background-color: #2a2c2f;
+}
