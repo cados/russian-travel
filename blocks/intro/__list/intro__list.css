@@ -2,19 +2,15 @@
   list-style-type: none;
   color: white;
   margin-top: 32px;
-  font-family: Inter Regular, sans-serif;
   font-size: 12px;
   line-height: 18px;
-  font-style: normal;
   padding: 0;
   width: 690px;
-  /* min-height: 90px; */
   margin-bottom: 0;
 }
 @media screen and (max-width: 767px) {
   .intro__list {
     margin: auto;
-    /* margin-top: 32px; */
     width: 288px;
     margin-top: 32px;
   }

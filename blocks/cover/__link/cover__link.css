@@ -1,5 +1,4 @@
 .cover__link {
-  color: white;
   display: block;
   text-decoration: none;
   width: 100%;
@@ -8,13 +7,5 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  transition: 0.5s ease;
-  -moz-transition: 0.5s ease;
-  -o-transition: 0.5s ease;
-  -webkit-transition: 0.5s ease;
-}
-
-.cover__link:hover {
-  background-color: rgba(42, 44, 47, 0.8);
   cursor: pointer;
 }

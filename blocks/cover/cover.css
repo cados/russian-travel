@@ -10,10 +10,19 @@
   height: 740px;
   background-repeat: no-repeat;
   background-size: cover;
-
+  /* background-position: center; */
+  background-position: 0 0;
   background-color: rgb(42, 44, 47, 0.3);
   background-blend-mode: overlay;
   position: relative;
+}
+
+.cover:hover {
+  background-color: rgba(42, 44, 47, 0.8);
+  transition: 0.5s ease;
+  -moz-transition: 0.5s ease;
+  -o-transition: 0.5s ease;
+  -webkit-transition: 0.5s ease;
 }
 
 @media (min-width: 1024px) and (max-width: 1279px) {
