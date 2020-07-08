@@ -12,15 +12,15 @@
   }
 }
 
+@media (min-width: 350px) and (max-width: 767px) {
+  .intro__text {
+    max-width: 90%;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .intro__text {
     margin: auto;
     max-width: 288px;
-  }
-}
-
-@media (min-width: 350px) and (max-width: 767px) {
-  .intro__text {
-    max-width: 90%;
   }
 }

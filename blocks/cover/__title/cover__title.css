@@ -9,7 +9,7 @@
   max-width: 560px;
   text-align: center;
   margin-top: 0;
-  z-index: 1;
+  z-index: 2;
 }
 
 @media screen and (max-width: 767px) {
@@ -17,7 +17,5 @@
     font-size: 32px;
     line-height: 35px;
     max-width: 255px;
-    margin-left: auto;
-    margin-right: auto;
   }
 }

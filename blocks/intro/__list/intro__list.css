@@ -8,15 +8,17 @@
   width: 690px;
   margin-bottom: 0;
 }
+
+@media screen and (max-width: 1023px) {
+  .intro__list {
+    margin-left: 0;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .intro__list {
     margin: auto;
     width: 288px;
     margin-top: 32px;
-  }
-}
-@media screen and (max-width: 1023px) {
-  .intro__list {
-    margin-left: 0;
   }
 }
